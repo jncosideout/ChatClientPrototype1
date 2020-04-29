@@ -1,0 +1,13 @@
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1.deps.json
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1.runtimeconfig.json
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1.runtimeconfig.dev.json
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1.dll
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/bin/Debug/netcoreapp3.1/ChatClientPrototype1.pdb
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.csprojAssemblyReference.cache
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.csproj.CoreCompileInputs.cache
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.AssemblyInfoInputs.cache
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.AssemblyInfo.cs
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.dll
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.pdb
+/home/alexb/Desktop/dotnet-projects/VSCodeProjects/ChatClientPrototype1/obj/Debug/netcoreapp3.1/ChatClientPrototype1.genruntimeconfig.cache

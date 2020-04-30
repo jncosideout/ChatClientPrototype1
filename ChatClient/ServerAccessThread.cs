@@ -36,18 +36,20 @@ namespace ChatServerPrototype1.ChatClient
                 if (networkStream.DataAvailable)
                 {
 
-                    Message response = receiveIncomingData();
-                    Console.WriteLine("Echoed from server: {0}",
-                        response.TheMessage);
+                    Message? response = receiveIncomingData();
+                    if (response is Message valueOfResponse)
+                    {
+                        Console.WriteLine("Echoed from server: {0}",
+                            valueOfResponse.TheMessage);
+                    }
                 }
             }
                 
         }
 
-        private Message 
-        receiveIncomingData()
+        private Message? receiveIncomingData()
         {
-            Message newMessage = null;
+            Message? newMessage = null;
             var memStream = new MemoryStream();
             try {
                 readBytesInto(ref memStream);
@@ -84,9 +86,9 @@ namespace ChatServerPrototype1.ChatClient
             while (networkStream.DataAvailable);
         }
 
-        private Message deserializeFromFirstXMLelement(ref MemoryStream memStream)
+        private Message? deserializeFromFirstXMLelement(ref MemoryStream memStream)
         {
-            Message msg = null;
+            Message? msg = null;
             byte[] bMessage = memStream.ToArray();
 
             XmlDictionaryReader xmlDictReader = XmlDictionaryReader.CreateTextReader(bMessage, 0, bMessage.Length, new XmlDictionaryReaderQuotas());

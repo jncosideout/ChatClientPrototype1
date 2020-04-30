@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 namespace ChatServerPrototype1.Utilities
 {
     [DataContract(Name = "MessageContract", Namespace = "ChatServerPrototype1.Utilities")]
-    public class Message
+    public struct Message
     {
         [DataMember]
         public string TheMessage { get; set; }

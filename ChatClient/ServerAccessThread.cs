@@ -100,9 +100,20 @@ namespace ChatServerPrototype1.ChatClient
                         if (serializer.IsStartObject(xmlDictReader))
                         {
                             Console.WriteLine("Found start element");
-                            msg = (Message)serializer.ReadObject(xmlDictReader);
+                            try
+                            {
+                                msg = (Message)serializer.ReadObject(xmlDictReader);
+                            }
+                            catch (Exception e)
+                            {
+                                Console.WriteLine("Problem deserializing Message from client \n");
+                                Console.WriteLine(e.ToString());
+                                Console.WriteLine("Exception message:\n{0}",e.Message);
+                                Console.WriteLine("Stack trace:\n{0}", e.StackTrace); 
+                                break;                               
+                            }
                         }
-                        Console.WriteLine(xmlDictReader.Name);
+                        Console.WriteLine("Message deserialized successfully");
                         break;
                 }
             }
